@@ -1,0 +1,40 @@
+ .app {
+   width: 100%;
+   height: "auto";
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .main {
+   width: 100%;
+   max-width: 1000px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+
+ }
+
+ .input {
+   width: 100%;
+   padding: 10px;
+   border-radius: 10px;
+   font-size: larger;
+ }
+
+ .button {
+   width: 100%;
+   border-radius: 10px;
+   font-size: larger;
+   margin-top: 5px;
+   padding: 5px;
+ }
+
+ .form {}
+
+ .search {}
+
+ .cards {
+   min-height: 100vh;
+   margin-top: 10px;
+ }
