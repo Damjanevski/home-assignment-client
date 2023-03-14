@@ -13,7 +13,10 @@ function App() {
   function handleSearch(e: { preventDefault: () => void; }) {
     setLoading(true)
     e.preventDefault();
-    fetch(`http://localhost:3003/api?q=${searchValue}`)
+    // USE THIS FOR LOCAL HOST
+    // fetch(`http://localhost:3003/api?q=${searchValue}`) 
+    // USE THIS FOR CODESANDBOX
+    fetch(`https://iko8bz-3003.csb.app/api?q=${searchValue}`)
       .then((res) => res.json())
       .then((data) => {
         const newArr = data.data.children.map((obj: any) => {
